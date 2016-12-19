@@ -1,0 +1,1408 @@
+@import url("http://fonts.googleapis.com/earlyaccess/opensanshebrew.css");
+
+body  {
+    direction: rtl;
+    font-family:'Open Sans Hebrew', sans-serif;
+    overflow-x: hidden;
+    overflow-y: visible;
+    margin: 0px;
+    position: relative;
+    
+}
+
+.holder {
+    margin-right: auto;
+    margin-top: auto;
+    z-index: 1030;
+    position: fixed;
+    background: white;
+    width: 100%; 
+}
+
+.holderFixed {
+width: 100%;
+height: 100px;
+}
+
+.holder-navIcon {
+background-color: #333;
+color: white;
+width: 20px;
+height: 15px;
+position: absolute;
+top: 10;
+right: 10;
+text-align: center;
+padding: 8px 10px 8px 10px;
+border-radius: 5px;
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px;   
+visibility: hidden;
+   
+
+}
+
+.Holder-NavHolder {
+    margin: 0px 60px 0px 0px;
+   
+}
+
+.u-clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.NavHolder-NavList a {
+    float: right;
+    text-decoration: unset;
+    padding: 0px 15px 0px 15px;
+    color: #212229;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 85px;
+    cursor: pointer;
+}
+
+.NavHolder-NavList a:hover {
+    color: #f42853;
+}
+
+.Holder-LogoHolder {
+    float: left;
+    margin: 17px 0px 0px 107px;
+
+}
+
+.headerHolder {
+ position: relative;
+ margin-top: 25px;
+}
+
+.headerHolder-mobileImg {
+ display: none;
+}
+
+.headerHolder-registration {
+ position:absolute;
+ top: 30px;
+ right: 100px;
+
+}
+.onTheRocks {
+   color:white;
+   font-size: 40px;
+    
+}
+.event-details {
+color:white;
+font-size: 26px;
+position: absolute;
+top: 65;
+}
+
+.event-details p {
+    margin-bottom: 17px;
+}
+
+.subscribe{ 
+  display: block;
+  background: #eb3f57;
+  width: 300px;
+  line-height: 2;
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  box-shadow: 0px 4px 0px 0px #a54146;  
+}
+.subscribe a {
+    color: wheat;
+    text-decoration: unset;
+}
+
+.lacturers-container{
+    background-color: #212229; 
+    padding-bottom: 40px; 
+}
+
+.lacturers-header{
+    font-size: 40px;
+    color: #d42e44;
+    font-weight: normal;
+    margin: 0px 80px 0px 0px;
+}
+
+.lacturers-seconderyHeader {
+    color: white;
+    border: white 1px solid;
+    font-weight: normal;
+    width: 228px;
+    font-size: 22px;
+    margin: 10px 80px 130px 0px;
+    text-align: center;
+}
+.master {
+    overflow: hidden;
+    position: relative;
+    width: 70%;
+    margin: 0;
+    padding-left: 100px;
+  
+}
+
+.master:hover .switchToDrink {
+    top: 0;
+}
+
+.master:hover .lactureTopics {
+    visibility: hidden;
+}
+
+.lactureTopics {
+
+color: white;
+margin: 0px 50px 0px 0px;
+padding-bottom: 10px;
+clear: both;
+width: 100%;
+}
+
+.switchToDrink {
+color: white;
+margin: 0px 60px 0px 0px;
+padding-bottom: 10px;
+clear: both;
+position: absolute;
+width: 70%
+}
+
+.lactureTopics img {
+float: right;
+padding-left: 40px;
+padding-bottom: 60px;
+}
+
+.switchToDrink img {
+float: right;
+padding-left: 40px;
+padding-bottom: 60px;
+}
+
+.FixBottom {
+    padding-top: 4px;
+}
+
+.topics-header {
+    font-size: 28px;
+}
+
+.switchToDrink-header {
+ font-size: 21px;
+ color:#ff1d3d; 
+}
+
+.topics-secondery {
+    font-size: 21px;
+    color:#ff1d3d; 
+}
+
+.topics-index{
+ font-size: 20px;
+ font-style: normal;
+}
+
+.switchToDrink-index {
+ font-size: 20px;
+ font-style: normal;
+}
+
+.regContainer {
+    background-color: #101115;
+    padding-top: 10px;
+    padding-bottom: 90px;
+}
+
+.righty {
+    float: right;
+}
+
+.regContainer-holder {
+    color: white;
+    width: 420px;
+    padding-right: 120px;
+}
+
+.regContainer-holder h1{
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.regContainer-holder h2{
+ font-size: 20px; 
+ font-weight: normal;  
+}
+
+.regContainer-holder p{
+font-size: 20px;
+font-weight: lighter; 
+}
+
+.formHolder{
+    color: white;
+    border-top: 1px gray solid;
+    width: 420px;
+    margin-right: 120px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.fieldGroup lable {
+    float: right;
+    line-height: 57px;
+    max-width: 100%;
+}
+
+.fieldGroup input { 
+    color: #a9a9a9;
+    padding: 8px;
+    margin: 10px 0px 10px 0px;
+    font-size: 16px;
+    border-top: 4px  #a9a9a9 solid;
+    width: 300px;
+    float: left;
+}
+
+.pinkSubmit {
+    width: 420px;
+    padding-top: 10px;
+
+}
+
+.pinkSubmit-press {
+    color: white;
+    background-color: #eb3f57;
+    font-size: 26px;
+    font-weight: lighter;
+    width: 300px;
+    height: 55px;
+    float: left;
+    cursor: pointer;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid #a54146;
+}
+
+.confidential {
+
+     border-top: 1px gray solid;
+     font-size: 16px;
+     font-weight: lighter;
+     float: right;
+     color: white;
+     width: 420px;
+     margin-right: 120px;
+
+}
+
+.lefty {
+    float: left;
+}
+
+.lefty-chatWrap {
+margin-left: 120px;
+position: relative;
+}
+
+.rightyWhite {
+background-color: #f0f0f0;
+margin: 40px 0px 0px 100px;
+padding-right: 15px;
+line-height: 48px;
+font-size: 20px;
+border-radius: 4px 4px 4px 4px;
+-webkit-border-radius: 4px 4px 4px 4px;
+-moz-border-radius: 4px 4px 4px 4px; 
+width: 240px;
+}
+
+.leftyBlue {
+ background-color: #2c5770;
+ margin: 40px 100px 0px 0px;
+ line-height: 48px;
+ text-align: left;
+ font-size: 20px;
+ padding-left: 20px;
+ padding-right: 15px;
+ border-radius: 4px 4px 4px 4px;
+ -webkit-border-radius: 4px 4px 4px 4px;
+ -moz-border-radius: 4px 4px 4px 4px; 
+ width: 210px;
+ 
+}
+
+.first::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: -10px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 10px solid #f0f0f0;
+}
+
+.second::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top:110;
+    left:0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-top: 10px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-right: 10px solid #2c5770;
+
+}
+
+.third::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 200px;
+    right: -10px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 10px solid #f0f0f0;  
+}
+
+.forth::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top:290;
+    left:0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-top: 10px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-right: 10px solid #2c5770;
+
+}
+
+.fifth::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    right: -10px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 10px solid #f0f0f0;
+ }
+
+.sixth::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom:10;
+    left:0;
+    width: 0;
+    height: 0;
+    border: none;
+    border-top: 10px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-right: 10px solid #2c5770;
+}
+
+
+.infoContainer{
+background-color: #212229;
+padding: 10px 0px 50px 0px;
+}
+
+.rightSection {
+    color: white;
+    float: right;
+    margin-right: 120px;
+}
+
+.infoContainer-holder h1 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.important {
+    background-color: #8c8c8c;
+    text-align: center;
+    line-height:40px;
+    width: 230px;
+    font-size: 18px;
+
+}
+
+.infoContainer-holder h2 {
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.adress {
+font-size: 17px;
+margin-top: 0px;
+}
+.time {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.gather {
+    font-size: 18px;
+    font-weight: lighter;
+    width: 80px;
+    float: right;
+
+}
+
+.sixThirty {
+    font-size: 42px;
+    font-weight: lighter;
+    float: right;
+    margin: 10px 0px 10px 0px;
+    padding-left: 15px;
+
+}
+
+.firstLacture {
+   font-size: 18px;
+   font-weight: lighter;
+   width: 70px;
+   float: right;
+}
+
+.seven {
+   font-size: 42px;
+   font-weight: lighter;
+   float: right;
+   margin: 10px 0px 10px 0px;
+}
+
+.parking {
+    font-size: 24px;
+    margin: 10px 0px 0px 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+
+}
+
+.parkinglot {
+    font-size: 20px;
+}
+
+.leftSection {
+    float: left;
+    margin: 50px 0px 0px 100px;
+}
+
+.extraInfo {
+    background-color: #101115;
+    padding-bottom: 50px;
+}
+
+.extraInfo-header {
+    color: white;
+    padding-top: 50px;
+    
+}
+
+.extraInfo-header h1 {
+    font-weight: lighter;
+    font-size: 40px;
+    margin: 0px 100px 0px 0px;
+}
+
+.exstraInfo-imgHolder {
+    margin: 0px 60px 0px 0px;
+    padding-top: 70px;
+
+}
+
+.exstraInfo-imgHolder img {
+    float: right;
+    padding: 0px 50px 0px 30px;
+    cursor: pointer;
+}
+
+.extraInfo-indexHolder {
+    margin: 0px 65px 0px 0px;
+}
+
+.extraInfo-indexHolder il ul {
+   color: #ccc;
+   float: right;
+   width: 150px;
+   padding-right: 90px;
+} 
+
+.extraInfo-indexHolder il ul h1 {
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.calling {
+    background-color: #101115;
+    color: #cccccc;
+    padding: 10px 0px 50px 0px;
+    border-top: solid 1px grey;
+    position: relative;
+}
+
+.yellowLink {
+    position: absolute;
+    height: 30px;
+    width: 50px;
+    background-color: #2a2a2a;
+    top:92;
+    right: 90;
+    cursor: pointer;
+    padding-right: 30px;
+}
+
+.yellowLink a {
+    color: yellow;
+
+}
+
+.yellowLink:hover {
+    background-color:#2a2a1a;
+}
+
+
+.calling h1 {
+ font-size: 36px;
+ font-weight: lighter;
+ margin: 0px 90px 0px 20px;
+ float: right;
+}
+
+.calling p {
+ font-size: 13px;
+ font-weight: lighter;
+ float: right;
+ width: 270px;
+} 
+
+.footer {
+    background-color: #2a2a2a;
+    color: grey;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.footer-listHolder {
+    margin-right: 80px;
+    padding-top: 25px;
+    width: 700px;
+    float: right;
+}
+
+.footer-listHolder il ul {
+ float: right;
+ font-size: 12px;
+ padding-right: 10px;
+ 
+ 
+}
+
+.borderGroup {
+    border-left: grey 1px solid;
+    padding-left: 10px;
+}
+
+.footer-logoHolder {
+    float: left;
+    margin: 40px 0px 0px 70px;
+}
+
+
+
+@media (max-width: 1302px) {
+
+    .exstraInfo-imgHolder {
+        margin-right: 100px;
+    }
+
+    .exstraInfo-imgHolder img {
+      padding: 0px 30px 0px 20px;
+ }
+
+    .extraInfo-indexHolder {
+        margin-right: 100px;
+    }
+
+    .extraInfo-indexHolder il ul {
+      padding-right: 60px;
+
+}
+
+@media (max-width: 1193px) {
+
+    .exstraInfo-imgHolder {
+        margin-right: 80px;
+    }
+
+   .exstraInfo-imgHolder img {
+      padding: 0px 40px 0px 40px;
+      width: 120px;
+      height: 120px;
+ } 
+
+ .extraInfo-indexHolder {
+        margin-right: 70px;
+}
+
+  .extraInfo-indexHolder il ul {
+      padding-right: 55px;
+
+}
+}
+
+@media (max-width: 1112px) {
+
+     .exstraInfo-imgHolder {
+        margin-right: 140px;
+        }
+
+    .exstraInfo-imgHolder img {
+      padding: 0px 20px 0px 20px;
+      
+}
+
+ .extraInfo-indexHolder {
+        margin-right: 140px;
+}
+
+  .extraInfo-indexHolder il ul {
+      padding-right: 15px;
+  }
+
+
+@media (max-width: 1066px) {
+
+.Holder-NavHolder {
+    margin-right: 20px;
+}
+
+.Holder-LogoHolder {
+    margin-left: 70px;
+}
+
+.headerHolder-mobileImg {
+    display: block;
+}
+
+.headerHolder-img {
+    display: none;
+}
+.headerHolder-registration {
+ top: 30px;
+ right: 250px;
+ text-align: center;
+ }
+
+.subscribe{ 
+  position: absolute;
+  top: 170;
+  right: 80;  
+}
+
+.lacturers-header{
+    padding-top: 50px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.lacturers-seconderyHeader {
+    margin-right: 120px;
+
+}
+
+.master {
+    width: 700px;
+    margin-right: 70px;
+}
+
+.topics-header{
+ font-size: 24px;
+ 
+}
+
+.topics-secondery{
+font-size: 20px;
+}
+.topics-index {
+font-size: 18px;
+}
+ .switchToDrink-header {
+     font-size: 20px;
+ }
+ .switchToDrink-index {
+     font-size: 18px;
+ }
+
+ .lefty{
+     display: none;
+ }
+
+ .righty{
+     margin-right: 150px;
+ }
+
+ .extraInfo-header {
+     margin-right: 10px;
+ }
+
+ .exstraInfo-imgHolder{
+     margin-right: 100px;
+ }
+
+ .exstraInfo-imgHolder img {
+     height: 100px;
+     width: 100px;
+    padding: 0px 5px 0px 60px;
+ }
+
+ .extraInfo-indexHolder {
+     margin-right: 90px;
+ }
+
+  .extraInfo-indexHolder il ul {
+      padding-right: 20px;
+    
+  }
+}
+
+@media (max-width: 983px){
+
+    .footer-listHolder{
+        display: none;
+
+    }
+}
+
+@media (max-width: 975px){
+
+.rightSection {
+       margin-right: 270px;
+       text-align: center;
+
+}
+
+
+.leftSection{
+    margin-left: 300;
+}
+
+
+
+@media (max-width: 958px) {
+
+ .exstraInfo-imgHolder {
+     margin-right: 110px;
+ }
+
+.exstraInfo-imgHolder img {
+    padding: 0px 5px 0px 40px;
+ }
+
+
+ .extraInfo-indexHolder {
+     margin-right: 80px;
+ }
+ .extraInfo-indexHolder il ul {
+      padding-right: 10px;
+    
+  }
+
+   .extraInfo-indexHolder il ul h1 {
+     font-size: 18px;
+    
+  }
+
+  .extraInfo-indexHolder il ul p {
+     font-size: 15px;
+    
+  }
+}
+
+@media (max-width: 927px) {
+
+    .Holder-LogoHolder{
+        margin: 5px 0px 0px 10px;
+    }
+
+   .Holder-LogoHolder img {
+       height: 40px;
+       width: 200px;
+
+   }
+
+   .Holder-NavHolder {
+       display: none;
+
+
+    }
+
+    .holder-navIcon {
+        visibility: unset;
+    }
+}
+
+
+@media (max-width: 900px) {
+
+    .Holder-LogoHolder{
+        margin: 5px 0px 0px 10px;
+    }
+
+   .Holder-LogoHolder img {
+       height: 40px;
+       width: 200px;
+   } 
+
+   .headerHolder-registration{
+     right: 200;
+   }
+
+   .master {
+       margin-right: 30px;
+       
+   }
+
+
+   .important {
+       margin-right: 75px;
+   }
+
+    .extraInfo-indexHolder  {
+        display: none;
+    }
+
+    .exstraInfo-imgHolder {
+     margin-right: 100px;
+ }
+
+
+    .lacturers-header{
+        padding-top: 100px;
+    }
+
+    .leftSection {
+        margin-left: 240px;
+    }
+
+   
+@media (max-width: 840px) {
+    
+
+    .headerHolder-registration {
+        padding-right: 50px;
+    }
+    .headerHolder-registration h1 {
+        font-size: 30px;
+
+    }
+
+    .event-details P{
+        font-size: 20px;
+    }
+
+    .subscribe {
+       right:100;
+       width: 150px;
+       height: 50px;
+    }
+
+    .lacturers-header {
+        font-size: 30px;
+    }
+
+    .lacturers-seconderyHeader {
+        font-size: 20px;
+        margin-right: 310px;
+    }
+
+
+    .master {
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    .lactureTopics img {
+        display: none;
+    }
+
+    .switchToDrink img {
+        display: none;
+    }
+
+    .switchToDrink {
+
+        margin-right: 110px;
+       
+    }
+
+    .regContainer-holder {
+        margin-right: 0px;
+        padding-right: 50px;
+        text-align: center;
+    }
+
+     .regContainer-holder h1 {
+         font-size: 30px;
+
+     }
+
+      .regContainer-holder h2 {
+         font-size: 20px;
+      }
+
+       .regContainer-holder p {
+         font-size: 18px;
+
+       }
+
+       .confidential {
+         margin-right: 50px;
+         text-align: center;
+       }
+
+       .formHolder {
+         margin-right: 50px;
+    }
+
+       .rightSection {
+        margin-right: 230px;
+    }
+
+       .leftSection {
+        margin-left: 210px;
+    }
+
+      .extraInfo-header h1 {
+          padding-right: 110px;
+       }
+
+       .exstraInfo-imgHolder {
+        width: 500px;
+        height: 300px;
+        margin-right: 220px;
+    }
+
+       .exstraInfo-imgHolder img {
+           padding-top: 20px;
+       }
+
+       .calling {
+         padding-right: 110px;
+         text-align: center;
+       
+       }
+       .yellowLink {
+           display: none;
+       }
+
+       .footer-logoHolder img {
+           margin-left: 270px;
+
+       }
+    
+       
+     
+} 
+@media (max-width: 812px) {
+
+    .master {
+        width: 400px;
+        margin-right: 120px;
+    }
+
+    .switchToDrink {
+        margin-right: 60px;
+    }
+
+}
+@media (max-width: 765px) {
+
+    .headerHolder-registration{
+        right: 140;
+    }
+
+    .lacturers-seconderyHeader {
+        margin-right: 260px;
+    }
+
+    .master {
+        margin-right: 100px; 
+
+   }
+
+   .righty{
+       margin-right: 120px;  
+   }
+
+    .rightSection {
+        margin-right: 190px;
+    }
+
+    .leftSection {
+        margin-left: 190px;
+    }
+    }
+
+ 
+@media (max-width: 708px) {
+
+    .lacturers-seconderyHeader {
+        margin-right: 240px;
+    }
+
+    .master {
+        margin-right: 60px;
+    }
+
+    .rightSection {
+       margin-right: 180px;
+    }
+
+    .righty {
+       margin-right: 90px;
+    }
+
+    iframe {
+        display: none;
+    }
+
+    .extraInfo-header {
+
+        margin-right: 60px;
+
+    }
+
+    .exstraInfo-imgHolder {
+        width: 100px;
+        margin-right: 290px;
+    }
+
+    .calling {
+        padding-right: 200px;
+    }
+
+    .footer-logoHolder {
+        margin-left: 10px;
+
+
+    }
+
+}
+@media (max-width: 610px) {
+
+    .headerHolder-registration {
+        right: 60;
+    }
+
+    .lacturers-header {
+        font-size: 22px;
+        padding-top: 150px;
+    }
+
+    .lacturers-seconderyHeader {
+        margin-right: 175px;
+    }
+
+    .master {
+        margin-right: 10px;
+    }
+
+    .regContainer-holder {
+        padding-right: 0px; 
+    }
+
+    .formHolder {
+       margin-right: 0px;
+
+    }
+
+    .confidential {
+    margin-right: 0px;
+    }
+
+    .rightSection {
+        margin-right: 100px;
+    }
+
+    .extraInfo-header {
+        margin-right:0px; 
+    }
+
+    .exstraInfo-imgHolder {
+        margin-right:230px;
+    }
+
+    .calling {
+        padding-right: 0px;
+    }
+
+    .footer-logoHolder {
+        margin-left: 0px;
+        padding-left: 0
+    }
+
+
+@media (max-width: 370px) {
+    .headerHolder-registration {
+        right: 30;
+        padding-right: 0px;
+    }
+
+    .headerHolder-registration h1 {
+        font-size: 26px;
+    }
+
+    .subscribe {
+        height: 40px;
+        width: 120px;
+        font-size: 20px;
+        right: 90;
+
+    }
+
+    .lacturers-header {
+        font-size: 20px;
+        padding-top: 220px;
+    }
+
+    .lacturers-seconderyHeader {
+        margin-right: 80px;
+        font-size: 18px;
+        width: 200px;
+       
+    }
+
+    .master {
+        margin-right: 0px;
+        padding-right: 0px;
+        width: 270px;
+    }
+
+    .righty {
+       padding-right: 30px;
+       margin-right: 0px; 
+    }
+
+    .regContainer-holder {
+        padding-right: 10px;
+        margin-right: 0px;
+        width: 270px; 
+
+    }
+
+    .formHolder {
+       margin-right: 10px;
+       width: 270px; 
+
+    }
+
+    .fieldGroup input {
+        width: 270px;
+    }
+
+    .pinkSubmit-press {
+        margin: 30px 0px 0px 150px;
+        width: 270px;
+     }
+
+    .confidential {
+    margin-right: 0px;
+     width: 270px;
+    }
+
+    .rightSection {
+        margin-right: 20px;
+    }
+
+    .infoContainer-holder h1 {
+        font-size: 30px;
+
+    }
+    .important {
+        margin-right: 45px;
+    }
+
+    .infoContainer-holder h2 {
+        font-size: 20px;
+
+    }
+
+    .sixThirty {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+
+    .seven {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+
+    .extraInfo-header h1 {
+       margin-right: 0px;
+ 
+    }
+
+    .exstraInfo-imgHolder {
+        margin-right:130px;
+    }
+
+    .calling {
+        padding-right: 40px;
+    }
+
+    .footer-logoHolder img {
+        margin-left: 110;
+    }
+
+}
+
+
+@media (max-width: 320px) {
+
+    .headerHolder-registration {
+        right: 20;
+        padding-right: 0px;
+    }
+
+    .headerHolder-registration h1 {
+        font-size: 25px;
+    }
+
+    .subscribe {
+        height: 40px;
+        width: 120px;
+        font-size: 20px;
+        right: 80;
+
+    }
+
+    .lacturers-header {
+        font-size: 20px;
+        padding-top: 220px;
+    }
+
+    .lacturers-seconderyHeader {
+        margin-right: 60px;
+        font-size: 18px;
+        width: 200px;
+       
+    }
+
+    .master {
+        margin-right: 0px;
+        padding-right: 0px;
+        width: 220px;
+    }
+
+    .righty {
+       padding-right: 10px;
+       margin-right: 0px; 
+    }
+
+    .regContainer-holder {
+        padding-right: 10px;
+        margin-right: 0px;
+        width: 270px; 
+
+    }
+
+    .formHolder {
+       margin-right: 10px;
+       width: 270px; 
+
+    }
+
+    .fieldGroup input {
+        width: 270px;
+    }
+
+    .pinkSubmit-press {
+        margin: 30px 0px 0px 150px;
+        width: 270px;
+     }
+
+    .confidential {
+    margin-right: 10px;
+     width: 270px;
+    }
+
+    .rightSection {
+        margin-right: 10px;
+    }
+
+    .infoContainer-holder h1 {
+        font-size: 30px;
+
+    }
+    .important {
+        margin-right: 30px;
+    }
+
+    .infoContainer-holder h2 {
+        font-size: 20px;
+
+    }
+
+    .sixThirty {
+        font-size: 25px;
+        padding-top: 15px;
+    }
+
+    .seven {
+        font-size: 25px;
+        padding-top: 15px;
+    }
+
+    .extraInfo-header h1 {
+       margin-right: 0px;
+       padding-right: 70px;
+ 
+    }
+
+    .exstraInfo-imgHolder {
+        margin-right:100px;
+    }
+
+    .calling {
+        padding-right: 20px;
+    }
+
+    .footer-logoHolder img {
+        margin-left: 90;
+    }
+
+}
+   
+
+
+   
+ 
+
